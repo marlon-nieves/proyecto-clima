@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima en tu Hogar...!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO CLIMA</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="onload()">
+    <div id="container">
+        <div class="block">
+            <div id="location">location:</div>
+            <div id="date">date:</div>
+            <div id="description">description:</div>
+        </div>
+        <div class="block">
+            <div class="information-container">
+                Temperature
+                <div class="info" id="temperature"></div>
+            </div>
+            <div class="information-container">
+                Pressure
+                <div class="info" id="pressure"></div>
+            </div>
+            <div class="information-container">
+                Humidity
+                <div class="info" id="humidity"></div>
+            </div>
+        </div>
+    </div>
+    <div id="loader" class="loader">Loading...</div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
