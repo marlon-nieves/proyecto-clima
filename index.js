@@ -1,4 +1,4 @@
-const API_KEY = 'f7bee17179c9a653a962b9804a3d1ac1';
+const API_KEY = '';
 
 const fechData = position => {
     const { latitude, longitude } = position.coords;
